@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span id="title">Calculator</span>
+    <section class="calculator">
+        <form> 
+            <input type="text" id="inputField">
+        </form>
+        <div class="buttons">
+            <button type="button" class="btn btn-yellow" onclick="onClick('*')">*</button>
+            <button type="button" class="btn btn-yellow" onclick="onClick('/')">/</button>
+            <button type="button" class="btn btn-yellow" onclick="onClick('-')">-</button>
+            <button type="button" class="btn btn-yellow" onclick="onClick('+')">+</button>
+
+            <button type="button" class="btn btn-grey" onclick="onClick(9)">9</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(8)">8</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(7)">7</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(6)">6</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(5)">5</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(4)">4</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(3)">3</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(2)">2</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(1)">1</button>
+            <button type="button" class="btn btn-grey" onclick="onClick(0)">0</button>
+            <button type="button" class="btn btn-grey" onclick="onClick('.')">.</button>
+
+            <button type="button" class="btn-equal" onclick="result()">=</button>
+            <button type="button" class="btn btn-clear" onclick="Delete()">C</button>
+
+
+
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <!-- <script>
+var myArr = [1,2,3,4,5,6,7,8];
+
+var newArr = myArr.map((elem)=>{
+      return elem+2;
+})
+console.log(myArr)
+// console.log(newArr)
+
+
+
+
+
+
+
+
+
+
+
+    </script> -->
+    
+</body>
+</html>
